@@ -1,0 +1,1 @@
+Para imagens em sites, o tamanho máximo é de 1500px, com resolução entre 50 e 72 (GIMP)

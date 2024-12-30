@@ -1,0 +1,3 @@
+Existem vários formatos de arquivos, alguns para imagens são:
+    1 - JPEG: mais antigo e mais compacto
+    2 - PNG: mais recente, permite mais tranparência

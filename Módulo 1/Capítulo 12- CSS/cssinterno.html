@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Interno</title>
+    <style>
+        body {
+            background-color: #399778;
+            color: aliceblue;
+            font-family: Arial;
+        }
+
+        h1 {
+            color: rgb(100, 39, 39);
+        }
+
+        p{
+            background-color: blueviolet;
+            border-radius: 10px;
+            padding: 10px;
+            width: 400px;
+        }
+
+        p#desva {
+            color: red;
+            background-color: #dada5c;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Interno/Local</h1>
+    <p>Usando as CSS localmente, estilo e conteúdo ficam separados no código, o que facilita o trabalho.</p>
+    <p>Para usá-las, use a tag &lt;style&gt; entre as tags de &lt;head&gt;</p>
+    <p>A partir daí, use os seletores para estilizar os elementos.</p>
+    <p id="desva">As desvantagens são que o códgio fica muito grande, e se for mais de uma página, será necessário colocar a tag &lt;style&gt; em todos os arquivos HTML.</p>
+</body>
+</html>
