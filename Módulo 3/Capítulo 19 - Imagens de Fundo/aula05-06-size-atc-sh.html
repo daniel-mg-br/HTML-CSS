@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho, Attachment e Shorthand das imagens</title>
+</head>
+<style>
+    body {
+        height: 100vh;
+        background-color: black;
+        background-image: url("img/wallpaper002.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*
+        OPÇÕES:
+        - Tamanho fixo
+        - Contain: adapta ao tamanho da tela sem cortar
+        - Cover: adapta ao tamanho da tela cortando
+        */
+        background-attachment: fixed; /*O fundo não rola junto com o main*/
+
+        /*Shorthand
+        background: color > image > position > repeat > [size] > atachment
+        */
+    }
+
+    main {
+        background-color: white;
+        max-width: 400px;
+        margin: auto;
+        padding: 10px;
+        border: solid 1px darkblue;
+        border-radius: 15px;
+    }
+</style>
+<body>
+    <main>
+        <h1>Testando o tamanho das imagens</h1>
+
+        <h2>Exemplo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam delectus impedit ducimus nulla natus vel distinctio molestiae numquam ut. Totam nostrum dolorem cumque alias corporis, officiis ab id! Ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum provident itaque asperiores, dicta perspiciatis sunt odit incidunt minima maxime? Porro exercitationem culpa soluta quas qui iusto ex laboriosam quam.</p>
+
+        <h2>Exemplo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, voluptatem harum esse magnam voluptate voluptatum quia dignissimos illum sint repellat excepturi dolores nesciunt, ab, cum enim sapiente reprehenderit in cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse autem nostrum impedit officiis. Tempore earum in voluptatum accusamus, sunt officia esse nulla dolorem aspernatur distinctio libero voluptatem maiores. Sapiente, quam.</p>
+
+        <h2>Exemplo</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos, ea optio amet necessitatibus nemo hic asperiores reprehenderit, beatae, vitae iusto pariatur! Unde tenetur voluptatum debitis. Eveniet nostrum necessitatibus provident Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eligendi, ab asperiores dicta debitis delectus aperiam? Nisi, recusandae. Dolor minus consequuntur repellendus ab distinctio eius a impedit laboriosam unde odit.</p>
+    </main>
+</body>
+</html>
