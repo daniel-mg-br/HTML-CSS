@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            border-radius: 10px 10px 0 0;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+
+    <!--
+        ANATOMIA DE TABELAS GRANDES
+
+        CAPTION
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">49 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 792</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 874 064</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">9 577 071</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 132 091</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td class="num">10 484 021</td>
+            </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 602 865</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 164 788</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>164 891 352</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Exemplo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente iusto nesciunt expedita consectetur nemo in quam neque pariatur, tempora ad minus officiis ullam omnis consequatur aspernatur voluptate aut? Dolor, adipisci?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum adipisci quisquam reprehenderit eligendi porro, velit incidunt repellat, cum aliquid doloremque id, ut officiis ex quibusdam veritatis est asperiores deserunt excepturi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum optio labore excepturi voluptatum quaerat dicta blanditiis consequuntur debitis magnam similique obcaecati assumenda, nisi, reprehenderit autem quis corporis nam? Sequi, amet?</p>
+
+    <h2>Exemplo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente iusto nesciunt expedita consectetur nemo in quam neque pariatur, tempora ad minus officiis ullam omnis consequatur aspernatur voluptate aut? Dolor, adipisci?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum adipisci quisquam reprehenderit eligendi porro, velit incidunt repellat, cum aliquid doloremque id, ut officiis ex quibusdam veritatis est asperiores deserunt excepturi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum optio labore excepturi voluptatum quaerat dicta blanditiis consequuntur debitis magnam similique obcaecati assumenda, nisi, reprehenderit autem quis corporis nam? Sequi, amet?</p>
+
+    <h2>Exemplo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente iusto nesciunt expedita consectetur nemo in quam neque pariatur, tempora ad minus officiis ullam omnis consequatur aspernatur voluptate aut? Dolor, adipisci?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum adipisci quisquam reprehenderit eligendi porro, velit incidunt repellat, cum aliquid doloremque id, ut officiis ex quibusdam veritatis est asperiores deserunt excepturi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum optio labore excepturi voluptatum quaerat dicta blanditiis consequuntur debitis magnam similique obcaecati assumenda, nisi, reprehenderit autem quis corporis nam? Sequi, amet?</p>
+
+    <h2>Exemplo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente iusto nesciunt expedita consectetur nemo in quam neque pariatur, tempora ad minus officiis ullam omnis consequatur aspernatur voluptate aut? Dolor, adipisci?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum adipisci quisquam reprehenderit eligendi porro, velit incidunt repellat, cum aliquid doloremque id, ut officiis ex quibusdam veritatis est asperiores deserunt excepturi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum optio labore excepturi voluptatum quaerat dicta blanditiis consequuntur debitis magnam similique obcaecati assumenda, nisi, reprehenderit autem quis corporis nam? Sequi, amet?</p>
+
+    <h2>Exemplo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente iusto nesciunt expedita consectetur nemo in quam neque pariatur, tempora ad minus officiis ullam omnis consequatur aspernatur voluptate aut? Dolor, adipisci?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum adipisci quisquam reprehenderit eligendi porro, velit incidunt repellat, cum aliquid doloremque id, ut officiis ex quibusdam veritatis est asperiores deserunt excepturi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum optio labore excepturi voluptatum quaerat dicta blanditiis consequuntur debitis magnam similique obcaecati assumenda, nisi, reprehenderit autem quis corporis nam? Sequi, amet?</p>
+</body>
+</html>
