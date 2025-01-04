@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <h1>Formulários HTML</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="est" id="iest">
+                <option value="" selected>---Escolha---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Região Centro-Oeste">
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="CE">Ceará</option>
+                    <option value="BA">Bahia</option>
+                    <option value="TO">Tocantins</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+                <optgroup label="Região Norte">
+                    <option value="PA">Pará</option>
+                    <option value="AC">Acre</option>
+                    <option value="AM">Amazonas</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lista">
+            <datalist id="lista">
+                <option value="ADM">Administrador</option>
+                <option value="BOMB">Bombeiro</option>
+                <option value="CONT">Contador</option>
+                <option value="DENT">Dentista</option>
+                <option value="ELET">Eletricista</option>
+                <option value="FAR">Farmacêutico</option>
+                <option value="GIN">Ginasta</option>
+                <option value="HIST">Historiador</option>
+                <option value="ILU">Ilusionista</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="itext">Mensagem:</label><br>
+            <textarea name="text" id="itext" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
