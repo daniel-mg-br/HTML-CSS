@@ -3,4 +3,9 @@
 
  Estou aprendendo a desenvolver sites e gerenciar meus repositórios!
 
- Acesse o site Origem do BugDroid <a href="https://danielmg-dot.github.io/HTML-CSS/M%C3%B3dulo%202/Cap%C3%ADtulo%2017%20-%20Desafio%20Android/index.html">aqui</a>.
+ Acesse o projeto Origem do BugDroid <a href="https://danielmg-dot.github.io/projeto-android/" target="_blank">aqui</a>.
+ Acesse o projeto Cordel Moderno <a href="https://danielmg-dot.github.io/projeto-cordel/" target="_blank">aqui</a>
+ Acesse o projeto Redes Sociais <a href="https://danielmg-dot.github.io/projeto-social/" target="_blank">aqui</a>
+ Acesse o projeto Tela de Login <a href="https://danielmg-dot.github.io/projeto-login/" target="_blank"></a>
+
+ 
